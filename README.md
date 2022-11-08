@@ -1,4 +1,4 @@
-# NFTCrowdSale
+# TokenCrowdSale
 
 ## Description
 
