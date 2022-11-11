@@ -26,6 +26,8 @@ This example uses the following technologies:
 - **Solidity** - Solidity is a statically-typed curly-braces programming language designed for developing smart contracts that run on Ethereum.
 - **Remix IDE** - Remix IDE is an open-source, browser based tool that allows developers to create and test smart contracts using Solidity.
 - **Open Zeppelin** - OpenZeppelin is an open-source platform for building secure dApps. The framework provides the required tools to create and automate Web3 applications.
+- **MetaMask** - MetaMask is a digital wallet for the Ethereum blockchain.
+- **Ganache**
 
 ## Evalulation Evidence
 
@@ -42,6 +44,32 @@ This example uses the following technologies:
 ![Compiling the KaseiTokenCrowdsaleDeployer](./images/KaseiCoinCrowdsaleDeployer_compiled.jpg)
 
 ## Deploy the Crowdsale to a Local Blockchain
+
+### 1. Deploy the crowdsale to a local blockchain with Remix, MetaMask, and Ganache.
+
+**Deploying KaseiTokenCrowdsaleDeployer**
+![Deploying KaseiTokenCrowdsaleDeployer](./images/1_Remix_deploy_KaseiTokenCrowdsaleDeployer.jpg)
+
+**Getting addresses for KaseiTokenCrowdsale and KaseiToken**
+![](./images/1_Remix_deploy_KaseiTokenCrowdsaleDeployer_addresses.jpg)
+
+**Deploying KaseiTokenCrowdsale**
+![](./images/1_Remix_deploy_KaseiTokenCrowdsale.jpg)
+
+**Deploying KaseiToken**
+![](./images/1_Remix_deploy_KaseiToken.jpg)
+
+### 2. Test the functionality of the crowdsale by using test accounts to buy new tokens and then checking the balances associated with those accounts.
+
+**Account 3 purchases 5 Kasei Tokens with 5 Ether**
+![](./images/2_Remix_buy_KaseiTokenCrowdsale_Account3_buys_5_ether.jpg)
+
+**Account 4 purchases 7 Kasei Tokens with 7 Ether**
+![](./images/2_Remix_buy_KaseiTokenCrowdsale_Account4_buys_7_ether.jpg)
+
+### 3. After purchasing tokens with one or more test accounts, view the total supply of minted tokens and the amount of wei that has been raised in the crowdsale contract.
+
+![](./images/2_Ganache_buy_KaseiTokenCrowdsale_Accounts.jpg)
 
 ## Contributors
 
