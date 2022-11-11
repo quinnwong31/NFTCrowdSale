@@ -29,7 +29,7 @@ contract KaseiCoinCrowdsaleDeployer {
 
     // The consttructor for KaseiCoinCrowdsaleDeployer
     constructor(
-    string memory name, 
+       string memory name, 
        string memory symbol,
        address payable wallet
     ) public {
